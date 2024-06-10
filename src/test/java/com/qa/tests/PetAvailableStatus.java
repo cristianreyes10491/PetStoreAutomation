@@ -53,7 +53,7 @@ public class PetAvailableStatus extends TestBase{
         //validate pet name or validate the pet ID
         Assert.assertEquals(responseBody.contains(id), true);
 
-        //5. get the status code and validate it:
+         //5. get the status code and validate it:
         int statusCode = response.getStatusCode();
         System.out.println("the status code is: "+ statusCode);
 
@@ -97,7 +97,7 @@ public class PetAvailableStatus extends TestBase{
 
 
 
-    }
+     }
 
 
 
