@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>RestAPIRestAssuredFW</groupId>
-	<artifactId>RestAPIRestAssuredFW</artifactId>
+	<artifactId>RestAPIRestAssured</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -19,7 +19,7 @@
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
-			<version>3.0.6</version>
+			<version>4.3.3</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -46,8 +46,15 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>6.11</version>
+			<version>7.4.0</version>
 			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>4.3.3</version>
+			<scope>test</scope>
 		</dependency>
 
 		<dependency>

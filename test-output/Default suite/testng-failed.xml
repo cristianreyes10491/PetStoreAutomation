@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.WeatherInfoTests">
+      <class name="com.qa.tests.PetAvailableStatus">
         <methods>
           <include name="setUp"/>
           <include name="getWeatherDetailsWithCorrectCityNameTest" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- com.qa.tests.WeatherInfoTests -->
+      </class> <!-- com.qa.tests.PetAvailableStatus -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -6,12 +6,12 @@
     <groups>
     </groups>
     <test name="Default test" duration-ms="4697" started-at="2018-01-24T17:48:12Z" finished-at="2018-01-24T17:48:17Z">
-      <class name="com.qa.tests.WeatherInfoTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.WeatherInfoTests@59fa1d9b]" name="setUp" is-config="true" duration-ms="4" started-at="2018-01-24T23:18:12Z" finished-at="2018-01-24T23:18:12Z">
+      <class name="com.qa.tests.PetAvailableStatus">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.PetAvailableStatus@59fa1d9b]" name="setUp" is-config="true" duration-ms="4" started-at="2018-01-24T23:18:12Z" finished-at="2018-01-24T23:18:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getWeatherDetailsWithCorrectCityNameTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.WeatherInfoTests@59fa1d9b]" name="getWeatherDetailsWithCorrectCityNameTest" duration-ms="2269" started-at="2018-01-24T23:18:12Z" data-provider="getData" finished-at="2018-01-24T23:18:15Z">
+        <test-method status="PASS" signature="getWeatherDetailsWithCorrectCityNameTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.PetAvailableStatus@59fa1d9b]" name="getWeatherDetailsWithCorrectCityNameTest" duration-ms="2269" started-at="2018-01-24T23:18:12Z" data-provider="getData" finished-at="2018-01-24T23:18:15Z">
           <params>
             <param index="0">
               <value>
@@ -52,11 +52,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getWeatherDetailsWithCorrectCityNameTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.WeatherInfoTests@59fa1d9b]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T23:18:15Z" finished-at="2018-01-24T23:18:15Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.PetAvailableStatus@59fa1d9b]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T23:18:15Z" finished-at="2018-01-24T23:18:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="getWeatherDetailsWithCorrectCityNameTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.WeatherInfoTests@59fa1d9b]" name="getWeatherDetailsWithCorrectCityNameTest" duration-ms="798" started-at="2018-01-24T23:18:15Z" data-provider="getData" finished-at="2018-01-24T23:18:16Z">
+        <test-method status="FAIL" signature="getWeatherDetailsWithCorrectCityNameTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.PetAvailableStatus@59fa1d9b]" name="getWeatherDetailsWithCorrectCityNameTest" duration-ms="798" started-at="2018-01-24T23:18:15Z" data-provider="getData" finished-at="2018-01-24T23:18:16Z">
           <params>
             <param index="0">
               <value>
@@ -106,7 +106,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:189)
 	at org.testng.Assert.assertEquals(Assert.java:199)
-	at com.qa.tests.WeatherInfoTests.getWeatherDetailsWithCorrectCityNameTest(WeatherInfoTests.java:81)
+	at com.qa.tests.PetAvailableStatus.getWeatherDetailsWithCorrectCityNameTest(WeatherInfoTests.java:81)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -138,11 +138,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getWeatherDetailsWithCorrectCityNameTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.WeatherInfoTests@59fa1d9b]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T23:18:16Z" finished-at="2018-01-24T23:18:16Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.PetAvailableStatus@59fa1d9b]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T23:18:16Z" finished-at="2018-01-24T23:18:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="getWeatherDetailsWithCorrectCityNameTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.WeatherInfoTests@59fa1d9b]" name="getWeatherDetailsWithCorrectCityNameTest" duration-ms="1071" started-at="2018-01-24T23:18:16Z" data-provider="getData" finished-at="2018-01-24T23:18:17Z">
+        <test-method status="FAIL" signature="getWeatherDetailsWithCorrectCityNameTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.PetAvailableStatus@59fa1d9b]" name="getWeatherDetailsWithCorrectCityNameTest" duration-ms="1071" started-at="2018-01-24T23:18:16Z" data-provider="getData" finished-at="2018-01-24T23:18:17Z">
           <params>
             <param index="0">
               <value>
@@ -192,7 +192,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:189)
 	at org.testng.Assert.assertEquals(Assert.java:199)
-	at com.qa.tests.WeatherInfoTests.getWeatherDetailsWithCorrectCityNameTest(WeatherInfoTests.java:81)
+	at com.qa.tests.PetAvailableStatus.getWeatherDetailsWithCorrectCityNameTest(WeatherInfoTests.java:81)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -224,7 +224,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getWeatherDetailsWithCorrectCityNameTest -->
-      </class> <!-- com.qa.tests.WeatherInfoTests -->
+      </class> <!-- com.qa.tests.PetAvailableStatus -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

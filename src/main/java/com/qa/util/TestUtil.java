@@ -15,14 +15,14 @@ public class TestUtil {
 	public final static int RESPONSE_CODE_201 = 201;
 	public final static int RESPONSE_CODE_400 = 400;
 	public final static int RESPONSE_CODE_401 = 401;
-	public final static String WeatherSheetName = "WeatherInfo";
+	public final static String PetSheetName = "WeatherInfo";
 
 	
 	static Workbook book;
 	static Sheet sheet;
-	
-	public static String TESTDATA_SHEET_PATH = "/Users/NaveenKhunteta/Documents/workspace/"
-			+ "RestAPIRestAssuredFW/src/main/java/com/qa/testdata/APITestData.xlsx";
+
+	public static String TESTDATA_SHEET_PATH = "/automation/PetStoreAutomation/"
+		+	 "src/main/java/com/qa/testdata/APITestData.xlsx";
 	
 //get data from excel:
 	public static Object[][] getDataFromSheet(String sheetName){
