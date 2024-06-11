@@ -18,7 +18,7 @@ public class UserAPITest extends TestBase {
 
         petIdAPI userAPI = new petIdAPI();
 
-        @DataProvider(name = "userData")
+        @DataProvider(name = "excelData")
         public Object[][] userData() throws IOException {
             ExcelUtils excelUtils = new ExcelUtils("src/main/java/com/qa/testdata/APITestData.xlsx", "PetInfo");
             List<Map<String, String>> data = excelUtils.getAllData();
@@ -31,7 +31,7 @@ public class UserAPITest extends TestBase {
             return dataArray;
         }
 
-        @Test(dataProvider = "userData")
+        @Test(dataProvider = "excelData")
         public void testAPI(Map<String, String> userData) {
             String method = userData.get("method");
             switch (method.toLowerCase()) {
